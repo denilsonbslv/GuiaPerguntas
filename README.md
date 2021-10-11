@@ -7,10 +7,10 @@ Para instalar o Express e o EJS, siga estas etapas:
 
 Express:
 ```
-<npm install express --save>
+npm install express --save
 ```
 
 ESJ:
 ```
-<npm install ejs --save>
+npm install ejs --save
 ```
