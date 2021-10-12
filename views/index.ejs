@@ -14,5 +14,22 @@
     <h3>
         Lista de perguntas
     </h3>
+
+    <p>Nome: <%= nome %> </p>
+    <p>Linguagem favorita: <%= lang %> </p>
+    <p>Empresa: <%= empresa %> </p>
+    <p>Incritos no canal: <%= inscritos %> </p>
+
+    <% if(msg == true){ %>
+        <h3>Isso é uma mensagem de erro!</h3>
+    <% } else { %>
+        <h3>Nenhum erro!</h3>
+    <%}%> 
+
+
+    <% produtos.forEach(function(produto) {%>
+        <%= produto.nome %> 
+        <%= produto.preco %>
+    <% }) %>
 </body>
 </html>
