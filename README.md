@@ -14,3 +14,17 @@ ESJ:
 ```
 npm install ejs --save
 ```
+Para fazer a conexão com o banco de dados (até então, futuramente será uma API)
+utilizaremos o Sequelize.
+
+## 🚀 Instalando Sequelize
+
+Sequelize:
+```
+npm install --save sequelize
+```
+
+MySql2:
+```
+npm install --save mysql2
+```
