@@ -12,7 +12,7 @@ connection
     })
     .catch((msgErro) => {
         console.log(msgErro);
-    })
+    });
 
 // Estou dizendo para o Express usar o EJS como view engine
 app.set('view engine','ejs');
