@@ -1,5 +1,5 @@
 # GuiaPerguntas
-Projeto feito durando o curso Formação Node.Js
+Projeto feito durando o curso Formação Node.Js, para aplicar os conhecimento iniciais e básicos sobre a ferramenta de desenvolvimento.
 
   ## 🚀 Instalando Express e EJS
 
@@ -24,7 +24,7 @@ Sequelize:
 npm install --save sequelize
 ```
 
-MySql2:
+sqlite2:
 ```
 npm install --save sqlite3
 ```
